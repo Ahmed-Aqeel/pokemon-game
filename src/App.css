@@ -15,10 +15,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +36,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header{
+  font-size: large;
+  
+  text-align: center;
+}
+.list{
+  color: white;
+  background-color: #475063;
+  width: 10%;
+  border-radius: 16px;
+  padding: 16px 0;
+  font-size: 16px;
+  text-align: center;
+  
+}
+.bg{
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #282c34;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  padding: 8px;
+  margin: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  color: white;
+  background-color: #475063;
+  
+}
+.btn:hover{
+  background-color: white;
+  color: black;
 }
